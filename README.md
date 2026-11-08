@@ -5,6 +5,8 @@ An automated industrial sorting station simulation designed to identify, categor
 ## 📺 Demo Video
 Watch the sorting station in action: [Click here to watch the demo on YouTube](https://youtu.be/VM9NxF4LwKA?si=YmtraZE7GlT4-t0d)
 
+![Sorting Station Overview](docs/Factory%201.png)
+
 ---
 
 ## 🛠️ System Overview & How It Works
