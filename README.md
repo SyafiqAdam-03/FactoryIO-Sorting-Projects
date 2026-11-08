@@ -25,16 +25,31 @@ Watch the sorting station in action: [Click here to watch the demo on YouTube](h
 | `%I0.1` | `Emergency Button` | Input | Safety stop override |
 | `%I0.2` | `Stop Button` | Input | Halts system operation |
 | `%I0.3` | `Reset Button` | Input | Resets counter displays |
+| `%I0.4` | `Count Sensor 1` | Input | Part tracking entry sensor |
 | `%I0.5` | `Vision 1` | Input | Vision sensor digital bit 1 |
 | `%I0.6` | `Vision 2` | Input | Vision sensor digital bit 2 |
 | `%I0.7` | `Vision 3` | Input | Vision sensor digital bit 3 |
 | `%I1.0` | `Vision 4` | Input | Vision sensor digital bit 4 |
-| `%I1.1` | `Count Sensor 2` | Input | Retroreflective tracking sensor |
+| `%I1.1` | `Count Sensor 2` | Input | Retroreflective tracking sensor 2 |
+| `%I1.2` | `Count Sensor 3` | Input | Retroreflective tracking sensor 3 |
+| `%I1.3` | `Count Sensor 4` | Input | Retroreflective tracking sensor 4 |
+| `%I1.4` | `Reset Sensor` | Input | Reset mechanism detection sensor |
 | `%Q0.0` | `Conveyor 1` | Output | Main transport belt |
 | `%Q0.1` | `Running Light` | Output | Green stack light indicator |
 | `%Q0.2` | `Stand By` | Output | Amber stack light indicator |
 | `%Q0.3` | `Stop Light` | Output | Red stack light indicator |
-| `%Q1.0` | `Sorter 1` | Output | Pivot arm actuator for line diversion |
+| `%Q0.4` | `Conveyor 2` | Output | Secondary transfer conveyor |
+| `%Q0.5` | `Conveyor 3` | Output | Third stage conveyor line |
+| `%Q0.6` | `Conveyor 4` | Output | Fourth stage conveyor line |
+| `%Q0.7` | `Conveyor 5` | Output | Final sorting line conveyor |
+| `%Q1.0` | `Sorter 1` | Output | Pivot arm actuator 1 |
+| `%Q1.1` | `Sorter Belt 1` | Output | Sorter line 1 belt drive |
+| `%Q1.2` | `Sorter 2` | Output | Pivot arm actuator 2 |
+| `%Q1.3` | `Sorter Belt 2` | Output | Sorter line 2 belt drive |
+| `%QD30` | `Counter 1` | Output (DInt) | Throughput counter register 1 |
+| `%QD34` | `Counter 2` | Output (DInt) | Throughput counter register 2 |
+| `%QD38` | `Counter 3` | Output (DInt) | Throughput counter register 3 |
+| `%QD42` | `Counter 4` | Output (DInt) | Throughput counter register 4 |
 
 ---
 
